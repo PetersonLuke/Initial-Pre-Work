@@ -1,0 +1,24 @@
+<!--
+    Luke Peterson
+    8/15/2019
+
+    Added the !important to the pink-text in CSS to make it be the first option picked, even though the inline css would normaly override.
+-->
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>

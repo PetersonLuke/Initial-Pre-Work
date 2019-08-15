@@ -1,0 +1,19 @@
+<!--
+    Luke Peterson   
+    8/15/2019
+    
+    Added a fallback for the variable incase a browser is used that is not supportive.
+-->
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
