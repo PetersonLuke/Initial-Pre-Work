@@ -1,0 +1,31 @@
+<!--
+    Luke Peterson
+    8/16/2019
+
+    Used justify-content: center; to place the 2 boxes within the center of the display: flex;  You can also make the objects be at the start, left side of the flex, using flex-start.  The end, the right side of the flex, using flex-end.  Have one on the left and the other on the right using, space-between.  Space-around will leave gaps on all sides of the objects, in the flexbox. 
+-->
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
