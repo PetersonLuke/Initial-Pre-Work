@@ -8,11 +8,11 @@ The client asks the server for the web files.  The server checks if it has the f
 
 ## From start to finish, how does data reach you to be rendered in the browser?
 
-The URL gets intered into the browser. THE BROWSER THAN PASES THE URL TO FIND THE PROTOCOL< HOST< PORT< AND PATH.
+The URL gets entered into the browser. THE BROWSER THAN PASSES THE URL TO FIND THE PROTOCOL< HOST< PORT< AND PATH.
 An HTTP request is made with the server with all other data being sent using TCP/IP.
-If the request is approved, the serve send "200 OK", giving approval to view the website.
-The files are then sent in chuncks of data called packets.
-The browser will than assemble the packets which will then display the website.
+If the request is approved, the server sends "200 OK", approving to view the website.
+The files are then sent in chunks of data called packets.
+The browser will then assemble the packets which will then display the website.
 
 ## What code is rendered in the browser?
 
@@ -20,11 +20,11 @@ The code that is rendered in the browser is the HTML, and JavaScript code that i
 
 ## What is the server-side code’s main function?
 
-To interact with databases, redner pages to the client and process input.
+To interact with databases, render pages to the client and process input.
 
 ## What is the client-side code’s main function?
 
-To have interacitve web pages, make dynamic changes to the web page, access temperary storage, and send request to the server.
+To have interactive web pages, make dynamic changes to the web page, access temporary storage, and send a request to the server.
 
 ## What is runtime?
 
@@ -36,7 +36,7 @@ From what I am understanding, one instance of the client-side is sent over by th
 
 ## How many instances of the server-side code are available at any given time?
 
-From what I am understanding there is just one instance of the server-side code abailable at any given time.  This is why client-side rendering is taking a lead.
+From what I am understanding, there is just one instance of the server-side code available at any given time.  This is why client-side rendering is taking a lead.
 
 ## How many instances of the databases connected to the server application are created?
 
