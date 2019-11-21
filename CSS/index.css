@@ -1,0 +1,137 @@
+/*
+Name: Luke Peterson
+Date created: 11/18/2019
+Most Recent Revision: 11/21/2019   
+*/
+
+/*
+Sections order:
+*
+header
+main
+.imgSection
+img
+.row
+.column
+.imgPar
+.gridItem
+.textChanges
+p
+.unorderedList
+a
+a:visited
+footer
+.footerPara
+*/
+
+/*Changes to the whole page*/
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/*changes to the header element*/
+header
+{
+    background-color: gold;     /*If gradient is not supported background will be gold*/
+    background-image: radial-gradient(gold, gold, black);   /*Radiant background colors*/
+    padding: 20px;  
+    text-align: center;
+    font-size: 2em;
+}
+
+/*Changes to the main element*/
+main
+{
+    background-color: darkgrey;
+}
+
+/*Changes to section elements with imgSection class*/
+.imgSection
+{
+    margin: auto;
+    width: 25%;     /*Setting imgSection to have a max size of 25%*/
+}
+
+/*Changes to img elements*/
+img
+{
+    width: 100%;
+}
+
+/*Changes to div elements with row class*/
+.row
+{
+    display: flex;  /*places the row into flex*/
+}
+
+/*Changes to div elements with column class*/
+.column
+{
+    float: left;
+    width: 50%;     /*Each column takes up 50% of the space*/
+    padding: 5px;   /*Adds small gap inbetween*/
+}
+
+/*Changes to p elements with imgPar class*/
+.imgPar
+{
+    text-align: center;
+}
+
+/*Changes to sections with gridItem class*/
+.gridItem
+{
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: left;
+}
+
+/*Changes to h2 elements with the textChanges class*/
+.textChanges
+{
+    text-align: center;
+    font-size: 2em;
+}
+
+/*Changes to p elements*/
+p
+{
+    font-size: 1.2em;
+}
+
+/*Class used on the unordered list in box2*/
+.unorderedList
+{
+    margin: auto;
+    text-align: center;
+    list-style-type: square;
+}
+
+/*Changes to a elements*/
+a
+{
+    color: black;
+    font-size: 1.2em;
+}
+
+/*Changes to visited links*/
+a:visited
+{
+    color: black;
+}
+
+/*Changes to footer*/
+footer
+{
+    padding: 40px;
+    background-color: black;
+}
+
+/*class for <p> element in footer*/
+.footerPara
+{
+    color: white;
+}

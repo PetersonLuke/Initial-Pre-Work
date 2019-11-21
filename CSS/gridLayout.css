@@ -1,0 +1,33 @@
+/*
+Name: Luke Peterson
+Date created: 11/21/2019
+Most Recent Revision: 11/21/2019   
+*/
+
+.gridContainer
+{
+    display: grid;
+    grid-template-areas: 
+        'boxOne boxTwo';
+    margin: auto;
+}
+
+.boxOne
+{
+    grid-area: boxOne;
+}
+
+.boxTwo
+{
+    grid-area: boxTwo;
+}
+
+@media screen and (max-width:700px)
+{
+    .gridContainer
+    {
+        grid-template-areas: 
+        'boxOne'
+        'boxTwo';
+    }
+}
